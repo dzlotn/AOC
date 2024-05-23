@@ -1,5 +1,5 @@
 #converts input to integer list
-with open("AOC121/input.txt","r") as file:
+with open("AOC 2021\AOC2021-1\input.txt","r") as file:
     lista = [int(line) for line in file]
 #iterates through list and sums the # of lines that are decreasing in size
 count1 = sum(lista[i]< lista[i+1] for i in range(len(lista)-1))
